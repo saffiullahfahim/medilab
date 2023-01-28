@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.headerTime {
+  background-color: #43ba7f;
+  padding: 18px 121px;
+  justify-content: space-between;
+}
+
+.headerTime .timeNumber {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  margin-left: 9px;
+}
+
+.headerNav {
+  background-color: #f9fff9;
+  padding: 21px 121px;
+  justify-content: space-between;
+}
+
+.navBar ul{
+  padding: 0;
+}
+
+.navBar li {
+  display: block;
+  margin-left: 38px;
+}
+
+.navBar li a {
+  text-decoration: none;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #666464;
+}
+
+.navBar li:nth-child(1) {
+  margin-left: 0;
+}
+
+.searchAuth .searchIcon{
+  position: absolute;
+  z-index: 1;
+  left: 16px;
+}
+
+.searchAuth .search {
+  filter: drop-shadow(0px 0px 2px rgba(67, 186, 127, 0.75));
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 8px 27px;
+  padding-left: 57px;
+  border-color: transparent;
+  outline: none;
+  color: #666464;
+  width: calc(150px - 84px);
+}
+
+.searchAuth .search::placeholder {
+  color: #dadadb;
+}
+
+.searchAuth a {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 8px 26px;
+  background: transparent;
+  border: none;
+  width: max-content;
+  text-decoration: none;
+}
+
+.searchAuth .login {
+  font-size: 16px;
+  line-height: 20px;
+  color: #fd7e41;
+}
+
+.searchAuth .signup {
+  background: #fd7e41;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
